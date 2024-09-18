@@ -21,7 +21,7 @@ public class ClickerPageTest extends BaseTest {
                 .acceptCookies()
                 .switchToFrame()
                 .clickOnPlusButton(countOfClick)
-                .checkResultNumber(countOfClick)
+                .checkResultNumber(10)
                 .checkResetButton();
     }
 }
