@@ -23,5 +23,6 @@ public class ClickerPageTest extends BaseTest {
                 .clickOnPlusButton(countOfClick)
                 .checkResultNumber(10)
                 .checkResetButton();
+        System.out.println("assascsac");
     }
 }
